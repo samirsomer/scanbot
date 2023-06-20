@@ -1,0 +1,29 @@
+{
+  "name": "scanbot",
+  "version": "1.0.0",
+  "description": "Telegram Bot for Scanning Texts for Malicious URLs",
+  "main": "app.js",
+  "scripts": {
+    "test": "dev nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samirsomer/scanbot.git"
+  },
+  "author": "samirsomer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samirsomer/scanbot/issues"
+  },
+  "homepage": "https://github.com/samirsomer/scanbot#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "extract-urls": "^1.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
